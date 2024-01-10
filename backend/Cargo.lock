@@ -361,7 +361,9 @@ checksum = "1aaf95b3e5c8f23aa320147307562d361db0ae0d51242340f558153b4eb2439b"
 
 [[package]]
 name = "dynja"
-version = "0.1.0"
+version = "0.2.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "dfffe11f9de761819202cbad8f0254672f9ffb50b50d25bd8013367cd4fb8dea"
 dependencies = [
  "askama",
  "dynja_derive",
@@ -370,7 +372,9 @@ dependencies = [
 
 [[package]]
 name = "dynja_derive"
-version = "0.1.0"
+version = "0.2.1"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "68bb744b92eccca82ac97dabaaadfd5041721f96fc8125465dc4261508a19b32"
 dependencies = [
  "proc-macro2",
  "quote",

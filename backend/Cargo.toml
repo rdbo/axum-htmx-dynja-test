@@ -7,7 +7,7 @@ edition = "2021"
 
 [dependencies]
 askama = "0.12"
-dynja = { version = "0.1", path = "../dynja/dynja" }
+dynja = "0.2.1"
 axum = "0.7"
 serde = { version = "1", features = ["derive"] }
 sqlx = { version = "0.7", features = ["runtime-tokio-rustls", "postgres"] }
