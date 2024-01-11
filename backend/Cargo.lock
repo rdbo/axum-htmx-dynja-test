@@ -361,7 +361,7 @@ checksum = "1aaf95b3e5c8f23aa320147307562d361db0ae0d51242340f558153b4eb2439b"
 
 [[package]]
 name = "dynja"
-version = "0.3.0"
+version = "0.4.0"
 dependencies = [
  "askama",
  "dynja_derive",
@@ -370,7 +370,7 @@ dependencies = [
 
 [[package]]
 name = "dynja_derive"
-version = "0.3.0"
+version = "0.4.0"
 dependencies = [
  "proc-macro2",
  "quote",

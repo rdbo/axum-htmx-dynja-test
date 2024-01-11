@@ -15,7 +15,7 @@ struct IndexTemplate<'a> {
     name: &'a str,
 }
 
-#[derive(sqlx::FromRow, Deserialize, Serialize, Debug)]
+#[derive(sqlx::FromRow, Serialize, Deserialize)]
 struct User {
     id: i32,
     name: String,
